@@ -50,7 +50,7 @@ html, body {
 
 }
 .image {
-    margin-right: 70px;
+    margin-right: 65px;
 }
 ul {
     list-style: none;
@@ -71,3 +71,71 @@ a {
     text-decoration: none;
     color: #f9faf8;
 }
+
+.card{
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    margin-top: 40px;
+}
+.card-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.cards-together {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 14px;
+    border-width: 5px;
+    border-color: #3882f6;
+    margin-top: 50px;
+    max-width: 200 px;
+
+}
+.caption {
+    text-align: center;
+    margin-top: 15px;
+}
+.info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    background-color: #e5e7eb;
+    padding: 100px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 600px;
+}
+
